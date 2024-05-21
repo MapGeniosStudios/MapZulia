@@ -26,7 +26,23 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_23d56c0743d4da9f2efb5a7c90e4ae41 {
+                #map_099ee69176617ff9e0ed50ada9023b6b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+
+                #map_7e25b9d7565a98c8bb9027c9e5e45649 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+
+                #map_2a7f5899f91a627fa939a1f28c1b3d64 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -117,29 +133,61 @@ function closeRightMenu() {
 	<div class="faq-container">
 		  <h2 style="color:#2dabd2;">Radiografía social de Zulia - Mapa interactivo de tendencias municipales</h2>
 		  
-		 
-		 
-		  
-		
-		  
 		   <!--<details open>-->
-		   <details open>
+		   <details>
 			 <summary>
-				  <h4 style="color:#f05707;">Mapa de calor: Publicaciones por municipio</h4>
+				  <h4 style="color:#f05707;">Actividad en redes sociales por municipio</h4>
 			  </summary>
 			   <div class="card" style="height: 700px;">
                                    
                                     
-                <div class="folium-map" id="map_23d56c0743d4da9f2efb5a7c90e4ae41" ></div>
+                    <div class="folium-map" id="map_099ee69176617ff9e0ed50ada9023b6b" ></div>
 
-                                     </div>
-                            </div>
+                </div>
+            </details>
+
+            
+            <details >
+                <summary>
+                    <h4 style="color:#f05707;">Tendencia ideológica predominante por municipio</h4>
+                </summary>
+
+                 <div class="card" style="height: 700px;">
+                                     
+                                      
+                  <div class="folium-map" id="map_7e25b9d7565a98c8bb9027c9e5e45649" ></div>
+  
+                </div>
+                             
+                 
+            </details>
+
+            <details >
+                <summary>
+                    <h4 style="color:#f05707;">Sentimiento predominante por municipio</h4>
+                </summary>
+
+                 <div class="card" style="height: 700px;">
+                                     
+                                      
+                  <div class="folium-map" id="map_2a7f5899f91a627fa939a1f28c1b3d64" ></div>
+  
+                                       </div>
+                            
+                 
+            </details>
+    </div>
+
+                
 			  
-			</details>
+			
+
             
 </main>   
 </body>
 
 <script src="mapa.js"></script>
+<script src="Map_Zulia_ideology_info.js"></script>
+<script src="mapa_Zulia_sentiment.js"></script>
 
 </html>
