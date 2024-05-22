@@ -58,6 +58,15 @@
                     left: 0.0%;
                     top: 0.0%;
                 }
+
+                #map_17fd74cb3ca0254016cc871e7c093f61 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                
                 .leaflet-container { font-size: 1rem; }
             </style>
         
@@ -140,7 +149,7 @@ function closeRightMenu() {
 <main class="content" >
 
 	<div class="faq-container">
-		  <h2 style="color:#2dabd2;">Radiografía social de Zulia <br>Mapa interactivo de tendencias municipales</h2>
+		  <h2 style="color:#2dabd2;">Radiografía de medios sociales en torno al estado Zulia <br>Mapa interactivo de tendencias municipales</h2>
           
 		  
 		   <!--<details open>-->
@@ -212,6 +221,37 @@ function closeRightMenu() {
                             
                  
             </details>
+            <br>
+
+            <h2 style="color:#2dabd2;">Estudio cuantitativo en torno al estado Zulia</h2>
+
+            <details >
+                <summary>
+                    <h4 style="color:#f05707;"><b>Intención de voto</b></h4>
+                </summary>
+
+                 <div class="card" style="height: 700px;">
+                                     
+                    <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: 120px; 
+                        background-color: white; border:2px solid grey; z-index:9999; font-size:14px;">
+                        &nbsp; <b></b> <br>
+                        &nbsp; <i style="background:#e52332">&nbsp;&nbsp;&nbsp;&nbsp;</i>&nbsp; Nicolás Maduro <br>
+                        &nbsp; <i style="background:#2d4c9c">&nbsp;&nbsp;&nbsp;&nbsp;</i>&nbsp; Edmundo González <br>
+                        &nbsp; <i style="background:orange">&nbsp;&nbsp;&nbsp;&nbsp;</i>&nbsp; No votaría / Voto nulo <br>
+                        &nbsp; <i style="background:#532F63">&nbsp;&nbsp;&nbsp;&nbsp;</i>&nbsp; Intención igualitaria
+                    </div>
+                        
+     
+    
+            <div class="folium-map" id="map_17fd74cb3ca0254016cc871e7c093f61" ></div>
+
+  
+                    </div>
+                            
+                 
+            </details>
+            
 
 
            
@@ -229,5 +269,6 @@ function closeRightMenu() {
 <script src="mapa_zulia_info_v2.js"></script>
 <script src="Map_Zulia_ideology_info.js"></script>
 <script src="mapa_zulia_sentiment.js"></script>
+<script src="mapa_cuanti.js"></script>
 
 </html>
